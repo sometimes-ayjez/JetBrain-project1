@@ -15,4 +15,12 @@
     <applicationListeners>
         <listener class="com.github.sometimesayjez.jetbrainproject1.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+    <actions>
+        <action id="com.github.sometimesayjez.jetbrainproject1.actions.JaysPopup"
+                class="com.github.sometimesayjez.jetbrainproject1.actions.JaysPopup" text="Jay&#39;s Popup"
+                description="Display a simple dialogue with &#39;hello world&#39;">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+
+        </action>
+    </actions>
 </idea-plugin>
