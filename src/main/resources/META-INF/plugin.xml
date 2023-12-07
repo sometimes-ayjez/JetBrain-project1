@@ -6,17 +6,8 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.sometimesayjez.jetbrainproject1.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.sometimesayjez.jetbrainproject1.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
     <actions>
-        <action id="com.github.sometimesayjez.jetbrainproject1.actions.JaysPopup"
+        <action id="com.github.sometimesayjez.jetbrainproject1.actions.JaysPopupTask"
                 class="com.github.sometimesayjez.jetbrainproject1.actions.JaysPopup" text="Jay&#39;s Popup"
                 description="Display a simple dialogue with &#39;hello world&#39;">
             <add-to-group group-id="ToolsMenu" anchor="last"/>

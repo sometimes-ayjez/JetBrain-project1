@@ -13,6 +13,12 @@ plugins {
     alias(libs.plugins.kover) // Gradle Kover Plugin
 }
 
+repositories {
+    mavenCentral()
+    maven {
+        url = uri("https://mvnrepository.com/artifact/org.jetbrains/marketplace-zip-signer:0.1.8")
+    }
+}
 group = properties("pluginGroup").get()
 version = properties("pluginVersion").get()
 
