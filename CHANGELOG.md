@@ -6,3 +6,7 @@
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - Basic dialogue code
+
+### Quick fix
+- Tests were causing some issues
+- The github workflow has a problem with the changelog so I added this
